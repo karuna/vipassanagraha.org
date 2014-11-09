@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="j2xml" method="upgrade">
+	<name>PLG_J2XML_IMPORTER15</name>
+	<author>Helios Ciancio</author>
+	<creationDate>April 2013</creationDate>
+	<copyright>(C) 2013, Helios Ciancio. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL v3</license>
+	<authorEmail>info@eshiol.it</authorEmail>
+	<authorUrl>www.eshiol.it</authorUrl>
+	<version>3.0.8</version>
+	<description>PLG_J2XML_IMPORTER15_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="importer15">importer15.php</filename>
+		<filename>1506.xsl</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_j2xml_importer15.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_j2xml_importer15.sys.ini</language>
+		<language tag="it-IT">it-IT/it-IT.plg_j2xml_importer15.ini</language>
+		<language tag="it-IT">it-IT/it-IT.plg_j2xml_importer15.sys.ini</language>
+	</languages>
+</extension>

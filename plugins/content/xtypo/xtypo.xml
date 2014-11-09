@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="content" method="upgrade">      
+	<name>Content - XTypo</name>
+	<creationDate>December 2012</creationDate>
+	<version>3.0.1</version>
+	<author>TemplatePlazza</author>
+	<copyright>Copyright 2007-2011 - TemplatePlazza.com</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>support@templateplazza.com</authorEmail>
+	<authorUrl>www.templateplazza.com</authorUrl>
+	<description>XTYPO_DESC</description>
+	<files>
+		<filename plugin="xtypo">xtypo.php</filename>
+		<filename>index.html</filename>	
+		<folder>assets</folder>	 
+		<folder>themes</folder>	  
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_xtypo.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_content_xtypo.sys.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+		<fieldset name="basic">	 
+			<field name="theme" type="folderlist" default="default" label="Theme" directory="plugins/content/xtypo/themes" />
+			<field name="themepack" type="spacer" label="XTYPO_THEMEPACK" />
+		</fieldset>
+	</fields>	
+    </config>	
+</extension>

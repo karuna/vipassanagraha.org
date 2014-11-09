@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+    <name>Avatar Slide Galleria Plugin</name>
+    <author>Nam Chung Tran</author>
+    <version>1.2.9</version>
+	<creationDate>April 2012</creationDate>
+	<copyright>JoomAvatar.com</copyright>
+	<license>License GNU General Public License version 2 or later</license>
+	<author>Tran Nam Chung</author>
+	<authorEmail>admin@joomavatar.com</authorEmail>
+	<authorUrl>www.joomavatar.com</authorUrl>
+	<edition>Free</edition>
+    <description>AVATAR_SLIDE_GALLERIA_DESC</description>
+    <files>
+        <filename plugin="avatar_slide_galleria">avatar_slide_galleria.php</filename>
+        <filename>index.html</filename>
+        <filename>avatar_slide_galleria.xml</filename>
+        <filename>helper.txt</filename>
+        <folder>assets</folder>
+        <folder>tmpl</folder>
+        <folder>classes</folder>
+    </files>
+    <languages>
+		<language tag="en-GB">en-GB.plg_content_avatar_slide_galleria.sys.ini</language>
+	</languages>
+</extension>
